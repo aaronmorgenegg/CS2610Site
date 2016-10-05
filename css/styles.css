@@ -23,77 +23,64 @@ ul {
 }
 
 body {
-  background: #324C79;
-  padding: 30px 0 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  background: #53507E;
 }
 nav {
-  width: 90%;
-  max-width: 1024px;
-  margin: 0 auto;
+  height: 37px;
+  width: 1100px;
+  margin-top: 30px;
+  align-items: center;
+  margin-bottom: 115px;
 }
 nav li a {
-  text-decoration: none;
-  color: white;
-  margin: 0 30px 30px 0;
-  float: left;
-  font-size: 1.2rem;
+  float:right;
+  font-family: 'Raleway',sans-serif;
+  font-weight: 800;
+  font-size: 12px;
+  color: #B1AEDE;
+  margin-left: 35px;
+  margin-top: 12px;
 }
 nav li a:hover {
-  color: #D4DDE7;
+  color: #white;
 }
 
-h1{
-  font-size: 2rem;
+nav li .active{
+  color: #white;
+  border-bottom-style: solid;
+  border-bottom-color: #FF8ED8;
+  border-bottom-width: 2px;
+}
+
+.homeLogo {
+  float: left;
+  margin-left: 70px;
+}
+
+.sodaImage {
+  float left;
+  margin-left: 70px;
+  width: 550px;
+}
+
+.sodaAdvert {
+  float left;
+  width 550px;
+}
+
+.sodaAdvertHeadline {
+  font-family: 'Raleway' sans-serif;
+  font-weight: 800;
+  font-size: 52px;
+  color: white;
+  line-height: 56px;
+  margin-bottom: 35px;
+}
+
+.sodaAdvertSubtext {
+  font-family: 'Roboto Slab' serif;
   font-weight: 400;
-  margin: 8px 0;
-  color: #384047;
-}
-
-p {
-  color: #515B63;
-  font-size: 1rem;
-  margin-bottom: 15px;
-  line-height: 1.4;
-}
-
-.container {
-  width: 90%;
-  max-width: 1024px;
-  background-color: white;
-  padding: 30px 15px;
-  margin: 0 auto;
-  position: relative;
-  overflow: hidden;
-  border-radius: 5px;
-  -webkit-box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.1);
-  box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.1);
-}
-
-#dice {
-  margin-top: 30px;
-  background-color: black;
-  color: white;
-  width: 3rem;
-  height: 3rem;
-  font-size: 2rem;
-  line-height: 3rem;
-  text-align: center;
-}
-
-#first, #second, #third {
-  margin: 30px 5px;
-  background-color: #515B63;
-  color: white;
-  border: none;
-  width: 6rem;
-  height: 2.5rem;
-  font-size: 1rem;
-  cursor: pointer;
-}
-
-#first:hover, #second:hover, #third:hover {
-  background-color: #6B747B;
+  font-size: 20px;
+  color: #B1AEDE;
+  margin-bottom: 120px;
 }
