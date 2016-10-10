@@ -30,6 +30,7 @@ nav {
   width: 1100px;
   margin-top: 30px;
   align-items: center;
+  margin: auto;
   margin-bottom: 115px;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -49,12 +50,11 @@ nav li b {
   margin-left: 70px;
   color: #B1AEDE;
 }
-nav li c {
+nav li i {
   float:right;
-  margin-top: 10px;
   margin-left: 10px;
 }
-nav li c :hover{
+nav li i :hover{
   opacity: .75;
 }
 nav li :hover {
@@ -73,44 +73,103 @@ footer {
   background-color: #403D65
 }
 
+.aboutBody {
+  width: 750px;
+  padding: 80px;
+  margin: auto;
+  margin-top: 0;
+  margin-bottom: 90px;
+  background-color: white;
+  box-shadow: 5px 5px 100px rgba(255, 255, 255, .75);
+}
+
+.aboutTitle {
+  font-family: "Raleway",sans-serif;
+  font-weight: 800;
+  font-size: 24px;
+  color: #FF8ED8;
+  margin-bottom: 35px;
+}
+
+.aboutTitleBody {
+  font-family: "Roboto Slab", serif;
+  font-weight: 400px;
+  font-size: 18px;
+  color: #5C5C5C;
+  max-width: 480px;
+}
+
+.aboutJebediah {
+  padding: 80px 80px 80px 80px;
+  position: relative;
+}
+
+.aboutJebediahImage {
+
+}
+
 .homeLogo {
   float: left;
   margin-left: 70px;
 }
 
 .mainContent {
-  float left;
-  margin-left: 70px;
-  width: 1100px;
+  width: 1200px;
+  margin: auto;
 }
 
 .sodaImage {
-  float left;
-  width 550px;
+  margin-left: 70px;
+  float:left;
+  width: 550px;
 }
 
 .sodaAdvertHeadline {
+  float:left;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 52px;
   color: white;
   line-height: 56px;
   margin-bottom: 35px;
+  width: 550px;
 }
 
 .sodaAdvertSubtext {
+  float:left;
   font-family: "Roboto Slab", serif;
   font-weight: 400;
   font-size: 20px;
   color: #B1AEDE;
   margin-bottom: 120px;
+  width: 550px;
+}
+
+.sodaButton {
+  float:left;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 45px;
+  padding-left: 45px;
+  border-radius: 40px;
+  box-shadow: 0 0 30px rgba(255,142,216,0.75);
+  background-color: #FF8ED8;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 24px;
+  color: white;
+}
+
+.sodaButton:hover {
+  box-shadow: 0 0 30px rgba(64, 61, 101, 0.75);
+  color: #403D65;
 }
 
 .footerCopyright {
-  height 35px;
+  height: 35px;
   margin-top: 15px;
   font-family: "Roboto Slab", serif;
-  font-weight 600;
+  font-weight: 600;
   font-size: 12px;
   color: #B1AEDE;
   text-align: center;
