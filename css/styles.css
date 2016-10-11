@@ -53,6 +53,7 @@ nav li b {
 nav li i {
   float:right;
   margin-left: 10px;
+  margin-top: 5px;
 }
 nav li i :hover{
   opacity: .75;
@@ -75,12 +76,13 @@ footer {
 
 .aboutBody {
   width: 750px;
-  padding: 80px;
-  margin: auto;
-  margin-top: 0;
+  height: 150px;
+  padding: 80px 80px 80px 80px;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 90px;
   background-color: white;
-  box-shadow: 5px 5px 100px rgba(255, 255, 255, .75);
+  box-shadow: 0px 0px 100px rgba(255, 255, 255, .75);
 }
 
 .aboutTitle {
@@ -100,12 +102,43 @@ footer {
 }
 
 .aboutJebediah {
-  padding: 80px 80px 80px 80px;
+  padding: 80px 80px 80px 180px;
   position: relative;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  margin-bottom: 10px;
 }
 
 .aboutJebediahImage {
+  width: 208px;
+  position:absolute;
+  top: -140px;
+  left: -170px;
+  border: 20px;
+  border-style: solid;
+  border-color: white;
+  border-radius: 50%;
+}
 
+.aboutJezabelle {
+  padding: 80px 180px 80px 80px;
+  position: relative;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: right;
+  float: right;
+}
+
+.aboutJezabelleImage {
+  width: 208px;
+  position:absolute;
+  border: 20px;
+  border-style: solid;
+  border-color: white;
+  border-radius: 50%;
 }
 
 .homeLogo {
