@@ -157,6 +157,12 @@ footer {
   margin-left: 70px;
   float:left;
   width: 550px;
+  display: inline-block;
+  animation: none;
+}
+
+.sodaImage:hover{
+  -webkit-animation: wiggle 0.5s infinite;
 }
 
 .sodaAdvertHeadline {
@@ -265,4 +271,16 @@ footer {
 :-moz-placeholder { /* Firefox 4 - 18 */
   color: #403D65;
   opacity: 1;
+}
+
+@-webkit-keyframes wiggle {
+	0% {
+		-webkit-transform:rotate(4deg);
+	}
+	50% {
+		-webkit-transform:rotate(-4deg);
+	}
+	100% {
+		-webkit-transform:rotate(4deg);
+	}
 }
